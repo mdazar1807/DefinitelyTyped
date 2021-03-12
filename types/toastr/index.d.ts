@@ -76,7 +76,7 @@ interface ToastrOptions {
      * Closing cannot be prevented by ev.stopPropagation() etc.
      * @default undefined
      */
-    onCloseClick?: (ev: JQueryMouseEventObject) => void;
+    onCloseClick?: (ev: Jquery.Event) => void;
     /**
      * Should clicking on toast dismiss it?
      * @default true
